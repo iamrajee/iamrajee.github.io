@@ -75,3 +75,15 @@ ul.tabs li.current{
 .tab-content.current{
 	display: inherit;
 }
+
+
+ul.footer{
+	border-top: 6px solid black;
+  	background-color: rgb(245, 245, 245);
+}
+ul.footer li{
+	color: #222;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}

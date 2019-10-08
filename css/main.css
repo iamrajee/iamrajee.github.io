@@ -61,7 +61,7 @@ ul.tabs li{
 	cursor: pointer;
 }
 
-/* ul.tabs li.current{
+ul.tabs li.current{
 	background: #ededed;
 	color: #222;
 }
@@ -74,4 +74,4 @@ ul.tabs li{
 
 .tab-content.current{
 	display: inherit;
-} */
+}

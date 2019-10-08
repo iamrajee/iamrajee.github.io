@@ -30,7 +30,8 @@ p {
 }
 footer {
 
-    border-top: 6px solid black;
+/*     border-top: 6px solid black; */
+    border-top: 6px solid #d5d5d5;
     background-color: rgb(245, 245, 245);
 	
 /*     border-top: 1px solid #d5d5d5; */
@@ -51,7 +52,8 @@ ul.tabs{
 /* 	margin: 0px;
 	padding: 0px; */
 /* 	list-style: none; */
-	border-bottom: 6px solid black;
+/* 	border-bottom: 6px solid black; */
+	border-bottom: 6px solid #d5d5d5;
   	background-color: rgb(245, 245, 245);
 }
 

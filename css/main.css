@@ -50,3 +50,8 @@ ul.tabs li{
 	padding: 10px 15px;
 	cursor: pointer;
 }
+
+ul.tabs li.current{
+	background: #ededed;
+	color: #222;
+}

@@ -47,7 +47,8 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-
+/* =============================old========================= */
+/*
 ul.tabs{
 /* 	margin: 0px;
 	padding: 0px; */
@@ -72,7 +73,7 @@ ul.tabs li.current{
 	color: #222;
 }
 ul.tabs li a{
-	display: block;
+	display: inline-block;
   	color: white;
   	text-align: center;
   	padding: 16px;
@@ -81,7 +82,33 @@ ul.tabs li a{
 ul.tabs li a:hover{
 	background-color: #111111;
 }
+*/
+/* =============================new========================= */
+/*
+ul.tabs {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
 
+ul.tabs li {
+  float: left;
+}
+
+ul.tabs li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+ul.tabs li a:hover {
+  background-color: #111111;
+}
+*/
 .tab-content{
 	display: none;
 	background: #ededed;

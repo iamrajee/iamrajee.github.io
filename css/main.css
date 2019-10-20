@@ -48,8 +48,7 @@ ul.posts li {
     list-style: none;
 }
 /* =============================old========================= */
-/*
-ul.tabs{
+/* ul.tabs{
 /* 	margin: 0px;
 	padding: 0px; */
 /* 	list-style: none; */
@@ -81,10 +80,9 @@ ul.tabs li a{
 }
 ul.tabs li a:hover{
 	background-color: #111111;
-}
-*/
+} */
+
 /* =============================new========================= */
-/*
 ul.tabs {
   list-style-type: none;
   margin: 0;
@@ -108,7 +106,7 @@ ul.tabs li a {
 ul.tabs li a:hover {
   background-color: #111111;
 }
-*/
+
 .tab-content{
 	display: none;
 	background: #ededed;
@@ -118,7 +116,7 @@ ul.tabs li a:hover {
 .tab-content.current{
 	display: inherit;
 }
-
+/* ====================================================== */
 
 /* ul.footer{
 	border-top: 6px solid black;

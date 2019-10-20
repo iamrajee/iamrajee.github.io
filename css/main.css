@@ -71,6 +71,9 @@ ul.tabs li.current{
 	background: #ededed;
 	color: #222;
 }
+ul.tabs li.a:hover{
+	background-color: #111111;
+}
 
 .tab-content{
 	display: none;

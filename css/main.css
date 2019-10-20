@@ -63,17 +63,17 @@ ul.tabs li{
 	
 /* 	background: none; */
 	color: #222;
-	display: block;
+	display: inline-block;
 	padding: 10px 15px;
 	cursor: pointer;
 }
 
-ul.tabs li.current{
+/* ul.tabs li.current{
 	background: #ededed;
 	color: #222;
-}
+} */
 ul.tabs li a{
-	display: inline-block;
+	display: block;
   	color: white;
   	text-align: center;
   	padding: 16px;

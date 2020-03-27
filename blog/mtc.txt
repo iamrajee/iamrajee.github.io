@@ -1,0 +1,123 @@
+split up build into subfolders for tests/demos
+src/subtask/move.cpp
+Added src/debug.cpp
+Added src/storage.cpp
+Added src/container.cpp(serial)
+Src
+task.cpp
+stage.cpp
+debug.cpp
+container.cpp
+Demo
+CMakeList.txt
+plan_pick_ur5.cpp
+Test
+CMakeList.txt
+test_current_state.cpp
+Subtask
+CMakeList.txt
+Current_state.cpp
+Parallel container
+Added introspection msg & srv
+
+
+MTC
+msg
+Stage.msg
+Task.msg
+Solution.msg
+srv
+GetInterfaceState.srv
+GetSolution.srv
+Added src/introspection_publisher.cpp(publish task.msg) to introspect InferfaceState and solution trajectory(moveit_msgs/DisplayTrajectory)
+Added msg/SubSolution.msg, msg/SubTrajectory.msg
+Deleted debug.cpp and merged to ==> introspection.cpp
+task panel: Added plugin MTC/task_panel_rviz_plugin_description.xml
+MTC/src/test/test_task_model.cpp
+MTC/visualization
+CMakeLists.txt
+Task_panel
+CMakeLists.txt
+Mainloop_processing.cpp & .h
+stage_wrapper.cpp & .h
+task_model.cpp & .h
+task_panel.cpp & .h & .ui
+Added task_solution_rviz_plugin_description.xml
+Copied from moveit and added in MTC/visualization(this)
+ Task_solution_display
+Visualization_tools
+src
+Task_solution_panel.cpp
+Task_solution_visualization.cpp
+Merged task_panel and Task_solution_display and created motion_planning_task. Also merged both plugin and name  motion_planning_tasks_rviz_plugin_description.xml
+Added new file and deleted some old files in visualization/motion_planning_tasks/ 
+Run unittest: add_rostest_gtest(xyz test_task_model.launch test_task_model.cpp)
+Divided task.msg and stages.mg into two. I.e TaskDescription.msg & Task.Statistics.msg and removed GetInterfaceState.srv
+5
+Added visualization/visualization_tools/src/display_solution.cpp
+split repo into different ROS packages: msgs, core, visualization(here)
+MTC
+Core
+Cmakelist
+Src
+task.cpp, stage.cpp etc.
+Stage_plugin
+Demo
+Test, etc.
+Msgs
+Cmakelist
+Msgs
+srv
+Visualization
+Cmakelist
+Motion_planning_tasks
+Visualization_tools
+Rviz_plugin, etc
+Added .travis.yml
+Created Cmakelist and other files in visualization/motion_planning_tasks/utils folder
+Added core/src/properties.cpp and using them in code for ease insead
+Added visualization/visualization_tools/src/marker_visualization.cpp
+Added MTC/rviz_maker_tools
+Cmakelist
+src/marker_creation.cpp
+Added core/src/marker_tools.cpp
+Added core/src/stages/compute_ik.cpp
+Added core/test/test_stage.cpp & .launch
+Added core/test/test_cost_queue.cpp
+Added  msgs/msg/Property.msg
+Added visualization/motion_planning_tasks/properties/CMakeLists.txt and other files
+Added core/src/stages/modify_planning_scene.cpp
+Added core/src/stages/fix_collision_objects.cpp
+Added various stages like connect, move_to, move_relative
+Added solver/* i.e planner_interface.cpp, cartesian_path.cpp, pipeline_planner.cpp
+Added stages/fixed_state.cpp
+Added stages like pick.cpp and simple_grasp.cpp
+Added visualization/motion_planning_tasks/utils/icon.cpp
+Added core/test/models.cpp 
+Removed various test(gripper, gen_grasp_pose, current_state, plan_cartesian_forward)
+Added generate_pose.cpp stage
+Added core/src/merge.cpp
+Deleted old stages: Move, Gripper, CartesianPositionMotion
+Move core/demo/* to core/test/ and also add new core/test/*.test file here.
+Added core/src/solvers/joint_interpolation.cpp
+Added MTC/capabilities(a move_group capability to execute Task Solutions)
+Cmakelist
+Capabilities_plugin_description.xml
+src/execute_task_solution_capability.cpp
+Added MTC/msgs/action/ExecuteTaskSolution.action
+Added add PredicateFilter stage
+Added visualization/motion_planning_tasks/properties/property_from_yaml.cpp
+Added visualization/motion_planning_tasks/test/test_solution_models.cpp
+Added msgs/msg/SolutionInfo.msg
+Added new stages generate_place_pose
+Added fixed_cartesian_poses.cpp stage
+Introduced .clang-format
+Created demo package for tutorial i.e Added MTC/demo/
+Cmakelist
+launch/demo.launch
+Src
+Moveit_task_constructor_demo.cpp
+pick_place_task.cpp
+include/…./pick_place_task.h
+config/panda_config.yaml
+Added src/cartesian.cpp & modular.cpp, pickplace.launch

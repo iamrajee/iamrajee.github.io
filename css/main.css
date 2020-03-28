@@ -111,13 +111,14 @@ ul.footer li{
 	cursor: pointer;
 } */
 .project_text{
-/* 	float: left; */
-/* 	width: 70%; */
+	float: left;
+	width: 70%;
 }
 .project_image{
 	float: right;
-/* 	width: 30%; */
+	width: 30%;
 }
+
 /* .project{
 	width: 30%;
 } */

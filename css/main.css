@@ -110,3 +110,9 @@ ul.footer li{
 	padding: 10px 15px;
 	cursor: pointer;
 } */
+.project_text{
+	float: left;
+}
+.project_image{
+	float: right;
+}

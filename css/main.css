@@ -117,6 +117,7 @@ ul.footer li{
 .project_image{
 	float: right;
 	width: 30%;
+	margin-top: 20px;
 }
 
 /* .project{

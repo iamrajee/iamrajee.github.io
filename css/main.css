@@ -112,7 +112,9 @@ ul.footer li{
 } */
 .project_text{
 	float: left;
+	width: 70%;
 }
 .project_image{
 	float: right;
+	width: 30%;
 }

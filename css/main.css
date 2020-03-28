@@ -119,6 +119,15 @@ ul.footer li{
 	width: 30%;
 	margin-top: 20px;
 }
+.project_text1{
+	float: left;
+	width: 70%;
+}
+.project_image1{
+	float: right;
+	width: 30%;
+	margin-top: 20px;
+}
 
 /* .project{
 	width: 30%;

@@ -4,7 +4,7 @@ title: "Final year thesis presentation"
 date: 2020-03-30
 ---
 
-<p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/iamrajee/iamrajee.github.io/blob/master/_posts/pdf/MTC_Multi_Arm.pdf">Download PDF</a>.</p>
+<p>This browser does not support PDFs. Please see it <a href="https://docs.google.com/presentation/d/1ggWsypkgU6BBLukUhhpPogIV7oRh5AXWxuxCq7Hco64/edit?usp=sharing">here</a> or download from <a href="https://github.com/iamrajee/iamrajee.github.io/blob/master/_posts/pdf/MTC_Multi_Arm.pdf">here</a>.</p>
 
 <object data="https://github.com/iamrajee/iamrajee.github.io/blob/master/_posts/pdf/MTC_Multi_Arm.pdf" type="application/pdf" width="100%" height="500px"></object>
 

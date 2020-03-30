@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Final year thesis presentation1"
+title: "Final year thesis presentation2"
 date: 2020-03-30
 ---
 
 <object data="https://github.com/iamrajee/iamrajee.github.io/blob/master/_posts/pdf/MTC_Multi_Arm.pdf" type="application/pdf" width="100%" height="700px"><p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/iamrajee/iamrajee.github.io/blob/master/_posts/pdf/MTC_Multi_Arm.pdf">Download PDF</a>.</p></object>
+
+<object data="https://drive.google.com/file/d/1zBeiJcJp9Rjbnx4OsZSPat0y3PZlvssO/view?usp=sharing" type="application/pdf" width="100%" height="700px"><p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://drive.google.com/file/d/1zBeiJcJp9Rjbnx4OsZSPat0y3PZlvssO/view?usp=sharing">Download PDF</a>.</p></object>
 
 <!---
 <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/iamrajee/iamrajee.github.io/blob/master/_posts/pdf/MTC_Multi_Arm.pdf">Download PDF</a>.</p>

@@ -11,8 +11,11 @@ date: 2020-03-30
     </embed>
 </object>
 --->
-<br/><hr/>
 <iframe src="pdf/MTC_Multi_Arm.pdf" width="100%" height="500px"></iframe>
 <object data="pdf/MTC_Multi_Arm.pdf" type="application/pdf" width="700px" height="700px"></object>
 <embed src="pdf/MTC_Multi_Arm.pdf" type="application/pdf" width="100%" height="100%"></embed>
+
+<iframe src="https://github.com/iamrajee/iamrajee.github.io/blob/master/_posts/pdf/MTC_Multi_Arm.pdf" width="100%" height="500px"></iframe>
+<object data="https://github.com/iamrajee/iamrajee.github.io/blob/master/_posts/pdf/MTC_Multi_Arm.pdf" type="application/pdf" width="700px" height="700px"></object>
+<embed src="https://github.com/iamrajee/iamrajee.github.io/blob/master/_posts/pdf/MTC_Multi_Arm.pdf" type="application/pdf" width="100%" height="100%"></embed>
 

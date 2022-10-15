@@ -133,7 +133,7 @@ title: Rajendra Singh
 </head>
 
 <body>
-    <nav>
+<!--     <nav>
         <ul class="tabs">
 <!--             style="background-color:rgb(252, 252, 252);" -->
             <li><a href="/">Home</a></li>
@@ -148,12 +148,23 @@ title: Rajendra Singh
             <li><a href="/gallary">Gallery</a></li>
             <li><a href="/contact">Contact me!</a></li>
         </ul>
-	</nav>
+	</nav> -->
     <div class="min-h-full flex-h-center" id="background_div">
 	    
-    	<nav>
+        <input type="hidden" value="https://bio.link" id="app-url">
+                    <input type="hidden" value="null" id="is-featured">
+        
+                    <img
+                    	class="page-image"
+                    	data-src="https://cdn.bio.link/themes/backgrounds/snowy.png"
+                    	src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEqklEQVRYhW2X25HsOAxDDyk5/3Q2hJvDBjJjWyT3g9Sj++5Uqayx3Q0QhCC1/PPn3wAQABFEci6acxVB5v01zwGC5CfnNxAAEURAEDUPgryyrvlcZX20gJMH532+weuJHM/my/PJcevr2ef/HTlqkBNsg+pX5VKfmSoUJAhEgEgQseAWWEhKJFU9CF2P905glWyDilQ7/ibCl/zEBokiM8ckdz4H6ClVst+9TzBVWSRUvxUQtnpSvS+w6vMiwEEESp3UoKsc4FNyPYYIorrnoocCH51NgAgCKQLHmOarOfVOV5Vlpim3LhJaQ9b171UAgVT15e4C9S8SSxl2X3rTs/9n9UpTRdtBQA4S1YLV+0OBCawfBLzekUMFyoTT1QqqsoCbKq3ppxKi6ZNvAtV7j0D9s3IPJ0IPFbZvuuheUnoo0FRoTf6XxPIBC3+1wCMIDcKnEo4W+OmH6ciuxE5ABRVoShKYJEqNSWIqICKH/Ft29yAkkHDClQjHJ+Z6P93TU8WMRP3KgaWEyqcKXzmQDi/neyDihIOE4AUmRyZkHpQJy8Mzq4pAfASP1mgqny2YFpjgAc4GxgU0CBe8TLdCr/B6ZicQDqEQUftA7H1hjb1Svj0wBxI4gkhtNCG4VJGx0GslQI/wuqulTRGpr/xrgzo2qh1GuzoRQaqISYiIvEyaKxeghxshgkrggCq4l3ncc6h+OkhiSTgLmjRSuUOTmX7hyyMzE4igm3ntgvk1ZiBiuEuNJOGuqAQhtaZT6PIAO2ZndXPusQuJyO9byxG62UAQXIVWsuyDiKLqmDtihsm2q4sisre5lQHueI0wx92w494HgQj6eMcyV7SWnox51pGPnoNAq55qfBqx1r+H4xPYHKure869FPFSqb/vWwR0yb2yenrrYw03QgOdBOSIYY9VpVlWbmaYGW6TgC+iEdCf511r3VrDW76Q/ZsJt/scHvgRy+vvaMEG3gTGJLJaUS147rfWuNKaYa1XJYFPAk7+b4732KkoeuxHRe5QYIKOcZJw3Awvwv2+n0yB2nRac8yc63LcCvSK/ODVMXN6a7lNVyKuYCmXLwWGMWwwhjHGWETSG2nG/vv7TcDo3bDh2OUlY3DVvPeONV8qbB9sAkuBAn4L/P0ikQR+bljbcKO3Ru/OuJxhOcwmuHN1Y/ROb3tjyj58EjirfsfgfXMsJeq9/vP7APsU1HujN+ManioMx0YwhnNdhvWeBFsrFebOGHspVr/HAfy875q/UwUP+s/PU6ehOgH1UmB8jqmCdadf6YN2qlBJ7+6LwAn+PC/PM4lke1KBn+dYBUqbLZgkygPuaUS7gss8lWh1ZpTjXOBJdPb+fQb3kwTuGs8zveD039+9DLMFvgiYBebgBj6X4roGvlbDacSDwDuq8pff++W+H+775X7KD+b0+37ThJIeGOb0EVxX7sznUWod5WYg9aB5+aDyyJcCxvsaz2sp/fNy36OIvDzVhv68Vnu7oi3oDtFnvM6zvyDsHySy7hcZnYE0W3UEz6jl+FopMrifwfMY7zD6GL5OPG0faxDJKlSVtiJVMXNam5uL7F+667fgjlq3GUqlim1Tv6XQfyTWa+6R9byUAAAAAElFTkSuQmCC"
+                    	alt="background"
+                    />
+                    <canvas id="bg-canvas" class="background-overlay"></canvas>
+                    
+                    
+	<nav>
 		<ul class="tabs">
-	<!--             style="background-color:rgb(252, 252, 252);" -->
 		    <li><a href="/">Home</a></li>
 		    <li><a href="/about">About Me</a></li>
 		    <li><a href="/education">Education</a></li>
@@ -166,21 +177,7 @@ title: Rajendra Singh
 		    <li><a href="/gallary">Gallery</a></li>
 		    <li><a href="/contact">Contact me!</a></li>
 		</ul>
-	</nav>  
-	    
-        <input type="hidden" value="https://bio.link" id="app-url">
-                    <input type="hidden" value="null" id="is-featured">
-        
-                                                <img
-                    class="page-image"
-                    data-src="https://cdn.bio.link/themes/backgrounds/snowy.png"
-                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEqklEQVRYhW2X25HsOAxDDyk5/3Q2hJvDBjJjWyT3g9Sj++5Uqayx3Q0QhCC1/PPn3wAQABFEci6acxVB5v01zwGC5CfnNxAAEURAEDUPgryyrvlcZX20gJMH532+weuJHM/my/PJcevr2ef/HTlqkBNsg+pX5VKfmSoUJAhEgEgQseAWWEhKJFU9CF2P905glWyDilQ7/ibCl/zEBokiM8ckdz4H6ClVst+9TzBVWSRUvxUQtnpSvS+w6vMiwEEESp3UoKsc4FNyPYYIorrnoocCH51NgAgCKQLHmOarOfVOV5Vlpim3LhJaQ9b171UAgVT15e4C9S8SSxl2X3rTs/9n9UpTRdtBQA4S1YLV+0OBCawfBLzekUMFyoTT1QqqsoCbKq3ppxKi6ZNvAtV7j0D9s3IPJ0IPFbZvuuheUnoo0FRoTf6XxPIBC3+1wCMIDcKnEo4W+OmH6ciuxE5ABRVoShKYJEqNSWIqICKH/Ft29yAkkHDClQjHJ+Z6P93TU8WMRP3KgaWEyqcKXzmQDi/neyDihIOE4AUmRyZkHpQJy8Mzq4pAfASP1mgqny2YFpjgAc4GxgU0CBe8TLdCr/B6ZicQDqEQUftA7H1hjb1Svj0wBxI4gkhtNCG4VJGx0GslQI/wuqulTRGpr/xrgzo2qh1GuzoRQaqISYiIvEyaKxeghxshgkrggCq4l3ncc6h+OkhiSTgLmjRSuUOTmX7hyyMzE4igm3ntgvk1ZiBiuEuNJOGuqAQhtaZT6PIAO2ZndXPusQuJyO9byxG62UAQXIVWsuyDiKLqmDtihsm2q4sisre5lQHueI0wx92w494HgQj6eMcyV7SWnox51pGPnoNAq55qfBqx1r+H4xPYHKure869FPFSqb/vWwR0yb2yenrrYw03QgOdBOSIYY9VpVlWbmaYGW6TgC+iEdCf511r3VrDW76Q/ZsJt/scHvgRy+vvaMEG3gTGJLJaUS147rfWuNKaYa1XJYFPAk7+b4732KkoeuxHRe5QYIKOcZJw3Awvwv2+n0yB2nRac8yc63LcCvSK/ODVMXN6a7lNVyKuYCmXLwWGMWwwhjHGWETSG2nG/vv7TcDo3bDh2OUlY3DVvPeONV8qbB9sAkuBAn4L/P0ikQR+bljbcKO3Ru/OuJxhOcwmuHN1Y/ROb3tjyj58EjirfsfgfXMsJeq9/vP7APsU1HujN+ManioMx0YwhnNdhvWeBFsrFebOGHspVr/HAfy875q/UwUP+s/PU6ehOgH1UmB8jqmCdadf6YN2qlBJ7+6LwAn+PC/PM4lke1KBn+dYBUqbLZgkygPuaUS7gss8lWh1ZpTjXOBJdPb+fQb3kwTuGs8zveD039+9DLMFvgiYBebgBj6X4roGvlbDacSDwDuq8pff++W+H+775X7KD+b0+37ThJIeGOb0EVxX7sznUWod5WYg9aB5+aDyyJcCxvsaz2sp/fNy36OIvDzVhv68Vnu7oi3oDtFnvM6zvyDsHySy7hcZnYE0W3UEz6jl+FopMrifwfMY7zD6GL5OPG0faxDJKlSVtiJVMXNam5uL7F+667fgjlq3GUqlim1Tv6XQfyTWa+6R9byUAAAAAElFTkSuQmCC"
-                    alt="background"
-                />
-                                        <canvas id="bg-canvas" class="background-overlay"></canvas>
-                    
-                    
-            
+	</nav>        
     <div class="mt-48 page-full-wrap relative ">
         <input type="hidden" value="creator-page" id="page-type">
         <img
